@@ -16,7 +16,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
     <link rel="stylesheet" href="./style.css" />
     <title>Personal Portfolio</title>
   </head>
@@ -31,7 +31,12 @@
     >
       <source src="./video/Matrix.mp4" type="video/mp4" />
     </video>
-    <div class="container"><h1>Dimitri Goderidze</h1></div>
+    <div class="container">
+      <h1>
+        Dimitri Goderidze <br />
+        A Junior Web Developer
+      </h1>
+    </div>
     <div class="container sticky-top">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -49,9 +54,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About Me</a
+              >
+              <a class="nav-link" href="#projects1">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -64,6 +71,11 @@
         <div class="row justify-content-center">
           <div class="col-sm-7">
             <p class="card about">
+              Hi, I am Dimitri Goderidze <br />
+              I am a Junior Front-End Developer. This Is My Personal Portfolio.
+              You can See Some of my projects below; <br />
+              if you get intrested, you can see my contacts at the end of this
+              page. <br />
               Hi, I am Dimitri Goderidze <br />
               I am a Junior Front-End Developer. This Is My Personal Portfolio.
               You can See Some of my projects below; <br />
@@ -174,7 +186,7 @@
     </section>
     <br />
 
-    <div class="footer-dark container">
+    <div id="contact" class="footer-dark container">
       <footer>
         <div class="container">
           <div class="row">
@@ -198,12 +210,15 @@
             </div>
             <div class="col-md-6 item text">
               <h3>Company Name</h3>
-              <p>
-                Praesent sed lobortis mi. Suspendisse vel placerat ligula.
-                Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis
-                tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel
-                in justo.
-              </p>
+              <blockquote class="blockquote">
+                <p class="mb-3" id="footerQuote">
+                  Your website is the center of your digital ecosystem, like a
+                  brick and mortar location, the experience matters once a
+                  customer enters, just as much as the perception they have of
+                  you before they walk through the door
+                </p>
+                <footer class="blockquote-footer">Leland Dieno</footer>
+              </blockquote>
             </div>
             <div class="col item social">
               <a href="https://www.facebook.com/dito.goderidze.1" target="blank"

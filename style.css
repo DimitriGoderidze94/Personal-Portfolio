@@ -1,6 +1,9 @@
 * {
   text-align: center;
 }
+body {
+  background-color: white;
+}
 
 .col-sm-3.card {
   height: 300px;
@@ -13,6 +16,7 @@
 .col-sm-3.card:hover {
   transform: scale(1.2);
   z-index: 9999;
+  color: #800080;
 }
 
 h1 {
@@ -27,13 +31,10 @@ nav {
 }
 
 .col-sm-7 p {
+  border: 13px solid #505050;
   font-size: 20px;
   color: white;
   background-color: black;
-}
-
-body {
-  background-color: white;
 }
 
 #background-video {
@@ -177,4 +178,17 @@ div.scroll {
 }
 .col-md-6.item.text p {
   color: #fff;
+}
+
+#footerQuote {
+  color: white;
+  opacity: 1;
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.blockquote-footer {
+  color: white;
+  text-align: end;
+  background: rgba(201, 255, 255, 0.2);
 }
