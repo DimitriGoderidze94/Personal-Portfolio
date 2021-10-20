@@ -17,7 +17,7 @@ body {
 }
 
 .col-sm-3.card:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
   z-index: 10;
   color: red;
   background-color: greenyellow;
