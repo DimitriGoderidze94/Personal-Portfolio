@@ -18,7 +18,7 @@ body {
 
 .col-sm-3.card:hover {
   transform: scale(1.2);
-  z-index: 9999;
+  z-index: 10;
   color: red;
   background-color: greenyellow;
 }
@@ -37,6 +37,7 @@ h2 {
 
 nav {
   background: rgba(201, 255, 255, 0.7);
+  z-index: 9999;
 }
 
 .navbar-brand {
