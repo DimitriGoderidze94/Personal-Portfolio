@@ -5,8 +5,8 @@ body {
   background-color: white;
 }
 
-.col-sm-3.card {
-  height: 300px;
+.projects {
+  height: 270px;
   background-position: center;
   background-color: wheat;
   border: 3px solid blue;
@@ -14,13 +14,35 @@ body {
   text-decoration: none;
   color: darkblue;
   text-shadow: 1px 1px black;
+  border-radius: 4%;
+  flex: 0 1 31%;
+  margin: auto;
+  margin-top: 2.5%;
 }
 
-.col-sm-3.card:hover {
+#projectsContainer {
+  border: 1px solid white;
+  padding: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8a2be2;
+}
+
+.projects:hover {
   transform: scale(1.03);
   z-index: 10;
   color: red;
   background-color: greenyellow;
+}
+
+.about {
+  padding: 5px;
+  border: 13px solid #505050;
+  font-size: 4vh;
+  color: white;
+  background-color: black;
+  height: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h1 {
@@ -36,7 +58,7 @@ h2 {
 }
 
 nav {
-  background: rgba(201, 255, 255, 0.7);
+  background: rgba(93, 138, 168, 0.5);
   z-index: 9999;
 }
 
@@ -46,24 +68,14 @@ nav {
   text-shadow: 1px 1px #ffff00;
 }
 .nav-link {
-  color: darkblue;
+  color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px #ffff00;
 }
 
 .nav-link:hover {
   font-size: 40px;
   text-shadow: 2px 2px #ff0000;
-}
-
-.col-sm-7 p {
-  padding: 5px;
-  border: 13px solid #505050;
-  font-size: 4vh;
-  color: white;
-  background-color: black;
-  height: 100%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #background-video {
@@ -79,16 +91,11 @@ nav {
   opacity: 0.95;
 }
 
-.col-sm-1.emptyColumn {
-  min-height: 20px;
-}
-
-.col-sm-3.card img {
+.projectImg {
   height: 200px;
-}
-
-.col-sm-4 {
-  max-width: fit-content;
+  width: 100%;
+  margin-top: 5px;
+  border: 1px solid #a0522d;
 }
 
 div.scroll {
@@ -102,25 +109,20 @@ div.scroll {
 #svgImg {
   width: 35vh;
 }
-.projectImg {
-  margin-top: 5px;
-  border: 1px solid #a0522d;
-}
 
-#projects ::-webkit-scrollbar {
+#scroll ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
 }
-#projects {
-  border: 1px solid Aqua;
-  border-radius: 2%;
-}
+
 .projectTitle {
   border: 2px solid #9932cc;
   border-radius: 15%;
   font-size: 80%;
   background-color: #f0ffff;
   font-weight: 600;
+  margin: 4%;
+  width: 92%;
 }
 
 .container.sticky-top {
@@ -131,9 +133,6 @@ div.scroll {
 .footer-dark {
   padding: 50px 0;
   color: white;
-}
-.col-sm-7 p {
-  text-align: left;
 }
 
 .footer-dark h3 {
@@ -165,6 +164,14 @@ div.scroll {
   .footer-dark .item:not(.social) {
     text-align: center;
     padding-bottom: 20px;
+  }
+  .projects {
+    flex: 0 1 44%;
+  }
+}
+@media (max-width: 390px) {
+  .projects {
+    flex: 0 1 90%;
   }
 }
 
@@ -218,9 +225,6 @@ div.scroll {
   opacity: 0.3;
   font-size: 13px;
   margin-bottom: 0;
-}
-.col-md-6.item.text p {
-  color: #fff;
 }
 
 #footerQuote {

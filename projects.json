@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Angular covid statistics",
+    "href": "https://dimitrigoderidze94.github.io/angular-covid-statistics/",
+    "src": "./images/AngularCovidStatistics.png"
+  },
+  {
+    "title": "Random Dogs",
+    "href": "https://dimitrigoderidze94.github.io/Random-Dogs/",
+    "src": "./images/RandomDog.jfif"
+  },
+  {
+    "title": "Currency Converter",
+    "href": "https://dimitrigoderidze94.github.io/Currency-Converter/",
+    "src": "./images/CurrencyConventer.png"
+  },
+  {
+    "title": "Highest grossing movies",
+    "href": "https://codepen.io/Goderidze/pen/PojzWJp",
+    "src": "./images/HighestGrossingMovies.jpg"
+  },
+  {
+    "title": "United States Educational Attainment",
+    "href": "https://codepen.io/Goderidze/pen/abwZdjJ",
+    "src": "./images/UnitedStates.png"
+  },
+  {
+    "title": "US GDP",
+    "href": "https://codepen.io/Goderidze/pen/powyrZj",
+    "src": "./images/DopingBicycle.jpg"
+  },
+  {
+    "title": "Calculator",
+    "href": "https://codepen.io/Goderidze/pen/YzVvxOv",
+    "src": "./images/calculator.png"
+  },
+  {
+    "title": "25 + 5 clock",
+    "href": "https://codepen.io/Goderidze/pen/OJmEPMo",
+    "src": "./images/countDownClock.png"
+  },
+  {
+    "title": "Drum Machine",
+    "href": "https://codepen.io/Goderidze/pen/wvdjPOY",
+    "src": "./images/drumMachine.png"
+  },
+  {
+    "title": "Technical Documentation Page",
+    "href": "https://codepen.io/Goderidze/pen/QWvgrEZ",
+    "src": "./images/Technical-Documentation-Page.png"
+  }
+]
