@@ -23,6 +23,7 @@ body {
 #projectsContainer {
   border: 1px solid white;
   padding: 4%;
+  border-radius: 1%;
   display: flex;
   flex-wrap: wrap;
   background-color: #8a2be2;
@@ -53,19 +54,21 @@ h1 {
 
 h2 {
   color: #ff4500;
-  background: rgba(0, 0, 255, 0.3);
-  text-shadow: 1px 1px #ffdead;
+  background: rgba(0, 0, 255, 0.1);
+  text-shadow: 3px 1px black;
 }
 
 nav {
   background: rgba(93, 138, 168, 0.5);
   z-index: 9999;
+  height: 100%;
 }
 
 .navbar-brand {
   color: #000080;
   font-size: 35px;
   text-shadow: 1px 1px #ffff00;
+  font-size: 45px;
 }
 .nav-link {
   color: black;
@@ -110,7 +113,7 @@ div.scroll {
   width: 35vh;
 }
 
-#scroll ::-webkit-scrollbar {
+.scroll ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
 }
