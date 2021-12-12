@@ -5,6 +5,11 @@
     "src": "./images/AngularCovidStatistics.png"
   },
   {
+    "title": "Mini Store",
+    "href": "https://dimitrigoderidze94.github.io/miniReactStore/",
+    "src": "./images/MiniStore.png"
+  },
+  {
     "title": "Random Dogs",
     "href": "https://dimitrigoderidze94.github.io/Random-Dogs/",
     "src": "./images/RandomDog.jfif"
