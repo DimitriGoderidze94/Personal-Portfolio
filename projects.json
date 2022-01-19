@@ -1,5 +1,10 @@
 [
   {
+    "title": "React Store with cart",
+    "href": "https://dimitrigoderidze94.github.io/react-store/",
+    "src": "./images/Cart.png"
+  },
+  {
     "title": "Angular covid statistics",
     "href": "https://dimitrigoderidze94.github.io/angular-covid-statistics/",
     "src": "./images/AngularCovidStatistics.png"
