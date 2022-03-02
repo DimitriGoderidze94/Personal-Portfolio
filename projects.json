@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "React Store with cart",
     "href": "https://dimitrigoderidze94.github.io/react-store/",
     "src": "./images/Cart.png"
@@ -18,6 +17,11 @@
     "title": "Random Dogs",
     "href": "https://dimitrigoderidze94.github.io/Random-Dogs/",
     "src": "./images/RandomDog.jfif"
+  },
+  {
+    "title": "Github Typeahead",
+    "href": "https://dimitrigoderidze94.github.io/Github-typeahead/",
+    "src": "./images/TypeAhead.png"
   },
   {
     "title": "Currency Converter",
